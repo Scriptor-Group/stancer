@@ -103,7 +103,7 @@ export class HttpClient {
     return response.json();
   }
 
-  public async getBasicAuthKey(username: string, password: string = "") {
+  public getBasicAuthKey(username: string, password: string = "") {
     return `Basic ${Buffer.from(`${username}:${password}`).toString("base64")}`;
   }
 }

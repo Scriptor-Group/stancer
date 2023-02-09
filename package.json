@@ -1,6 +1,6 @@
 {
-  "name": "stancer-api",
-  "version": "1.0.4",
+  "name": "stancer",
+  "version": "1.0.5",
   "description": "Stancer API wrapper for NodeJS.",
   "main": "dist/index.js",
   "files": [
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Arkmind/stancer-api.git"
+    "url": "git+https://github.com/Arkmind/stancer.git"
   },
   "keywords": [
     "stancer",
@@ -27,9 +27,9 @@
   "author": "Andy \"Arkmind\" SANT",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Arkmind/stancer-api/issues"
+    "url": "https://github.com/Arkmind/stancer/issues"
   },
-  "homepage": "https://github.com/Arkmind/stancer-api#readme",
+  "homepage": "https://github.com/Arkmind/stancer#readme",
   "devDependencies": {
     "nodemon": "^2.0.20",
     "prettier": "^2.8.4",
